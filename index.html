@@ -1,0 +1,186 @@
+<!--Feito por: Lucas Barrozo 2D-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="Imagens/avatar-perfil.jpg" alt="avatar de Lucas" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Lucas Barrozo</p>
+        <h1>Eu aprendo programação</h1>
+        <p>Estudo no Ibrahim Nobre, estou aprendendo programação nas aulas de programação. Até o momento desenvolvi
+            diversos projetos, incluindo os que vocês poderão observar abaixo. Não tenho projeto de vida, mas em breve
+            irei encontrar o meu. (Gosto de programar)</p>
+        <div>
+            <p class="badge bg-primary">HTML</p>
+            <p class="badge bg-primary">CSS</p>
+            <p class="badge bg-primary">JavaScript</p>
+            <p class="badge bg-primary">Micro:bit</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos realizados</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/projeto-1.jpg" class="card-img-top" alt="Imagem do projeto corrida maluca">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto: Corrida Maluca</h5>
+                        <p class="card-text">Corrida maluca, um jogo onde a diversão é o limite, pressione o mais rápido que puder e vença o jogo!</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/projeto-2.jpg" class="card-img-top" alt="Imagem do projeto quente ou frio">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto: Quente ou frio?</h5>
+                        <p class="card-text">Quente ou frio um jogo focado em localizar um ponto específico na tela, exigindo bastante coordenação motora e foco.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagens/projeto-3.webp" class="card-img-top" alt="Imagem do projeto Monalisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto: Monalisa
+                        </h5>
+                        <p class="card-text">Projeto realizado durante as aulas de programação, Consiste em um jogo onde ao locomover o mouse os olhos do famoso quadro de Da Vinci se move!
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto: Corrida Maluca</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O jogo Corrida Maluca é uma competição divertida e frenética entre até quatro jogadores, onde
+                        cada participante controla um personagem ou veículo em uma corrida usando apenas o teclado. A
+                        mecânica central do jogo é simples e acessível: cada jogador utiliza uma tecla específica para
+                        fazer seu personagem avançar — normalmente, as teclas "A", "S", "D" e "F" são atribuídas a cada
+                        jogador, respectivamente. Ao pressionar sua tecla repetidamente, o personagem correspondente se
+                        move para frente em uma pista horizontal na tela. O ritmo com que cada jogador aperta sua tecla
+                        determina a velocidade de avanço, tornando a corrida uma disputa de rapidez e coordenação.</p>
+                    <p>Cada partida começa com os personagens alinhados na linha de largada. Ao sinal de início, os
+                        jogadores devem pressionar sua tecla o mais rápido possível para percorrer a distância até a
+                        linha de chegada. O primeiro que alcançar o final da pista vence a corrida. A interface costuma
+                        exibir uma barra de progresso ou animações dos personagens se movimentando da esquerda para a
+                        direita, permitindo acompanhar o desempenho em tempo real.</p>
+                    <p>A dinâmica é simples, mas muito empolgante, especialmente quando jogado em grupo no mesmo
+                        teclado, promovendo competição direta e reações rápidas.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lucas_B/full/3NrM_Qbvd">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto: Quente ou Frio?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O jogo Quente ou Frio é uma aplicação interativa cujo objetivo é encontrar um ponto
+                        localizado aleatoriamente em uma área da tela. O jogador utiliza o mouse para explorar essa
+                        área, tentando descobrir onde o ponto está escondido. À medida que o cursor do mouse se move, o
+                        jogo responde com pistas baseadas na distância entre o cursor e o ponto secreto. Essas pistas
+                        são fornecidas em tempo real e seguem uma lógica simples, quanto mais perto menor o círculo.
+                    </p>
+                    <p>O ponto secreto é geralmente representado internamente por coordenadas (x, y), e a distância
+                        entre o cursor e o ponto é calculada constantemente para determinar o nível da dica. Quando o
+                        jogador acredita que encontrou o local certo, ele pode clicar. Se o clique for suficientemente
+                        próximo do ponto (dentro de uma margem de erro, como 2 ou 5 pixels), o jogo considera como
+                        vitória e exibe uma mensagem de acerto, além de revelar o ponto real.</p>
+                    <p>Jogo realizando em sala de aula por mim :D</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto quente ou frio">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lucas_B/full/-OVk_1sh1">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto: Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O Projeto Monalisa é uma experiência interativa e visualmente envolvente que simula a sensação de
+                        que a famosa personagem da pintura de Leonardo da Vinci está acompanhando os movimentos do
+                        usuário com os olhos. A principal mecânica do projeto gira em torno da movimentação do cursor do
+                        mouse: à medida que o usuário move o mouse pela tela, os olhos da Monalisa se deslocam
+                        sutilmente na mesma direção, criando a ilusão de que ela está observando ativamente o movimento.
+                    </p>
+                    <p>O efeito é conseguido por meio da manipulação de elementos gráficos ou sprites posicionados sobre
+                        a imagem da Monalisa. A posição do cursor é constantemente monitorada, e com base nessas
+                        coordenadas, os olhos da personagem — ou, mais precisamente, as pupilas — são deslocados dentro
+                        de uma área limitada, simulando o movimento realista do olhar. O desafio técnico do projeto está
+                        justamente em manter esse movimento dentro de um intervalo natural, evitando exageros que
+                        poderiam comprometer a ilusão de realismo. Para isso, calcula-se o ângulo e a distância do
+                        cursor em relação ao centro dos olhos e aplica-se um pequeno deslocamento proporcional à direção
+                        do olhar.</p>
+                    <p>O Projeto Monalisa pode ser expandido de várias formas, como adicionar reações faciais, piscar os
+                        olhos ou seguir outros elementos além do cursor, transformando-se em uma plataforma de
+                        experimentação artística e tecnológica. Em essência, é um exemplo criativo de como pequenas
+                        interações visuais podem dar vida a obras clássicas e despertar o interesse por programação,
+                        arte e percepção visual.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/Lucas_B/full/Zs3Jq7Bam">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="">Github</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Lucas Barrozo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

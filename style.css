@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+    --cor-principal:rgb(3, 140, 253);
+    --cor-segundaria: #3d71ff;
+    --cor-destaque: #00042a;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1, h2, h5 {
+    font-family: "Bebas Neue", sans-serif;;
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-destaque);
+    text-decoration: none;
+}
+
+footer img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+footer a:p {
+    font-weight: 5px;
+}
